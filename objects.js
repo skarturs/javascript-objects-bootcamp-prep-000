@@ -3,9 +3,7 @@ var playlist = {
 };
 
 function updatePlaylist(playlist, artistName, songTitle){
-playlist.artistName = 'Phil Ochs';
-
-return playlist.assign({},playlist,{'Phil Ochs':"Here's to the State of Mississippi"});
+return playlist.assign({},playlist,{artistName:songTitle});
 };
 
 
