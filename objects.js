@@ -3,6 +3,7 @@ let playlist = {
 };
 
 function updatePlaylist(playlist,artistName,songTitle){
+playlist.assign('Phil Ochs':"Here's to the State of Mississippi");
   return this.playlist;
 };
 
